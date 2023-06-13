@@ -255,7 +255,7 @@ $(".decline").click(function(){$(".shotaro").fadeOut();});
                               /* BODY */
  
  
-body { background-color:#ffffff; color:#464659; font-family:'montserrat'; font-weight:500; font-size:8px; letter-spacing:1.3px; line-height:17px; background-image:url('https://assets.tumblr.com/images/x.gif?v=1'); background-size:cover; overflow:hidden; }
+body { background-color:#ffffff; color:#464659; font-family:'montserrat',sans-serif; font-weight:500; font-size:8px; letter-spacing:1.3px; line-height:17px; background-image:url('https://assets.tumblr.com/images/x.gif?v=1'); background-size:cover; overflow:hidden; }
  
 a { text-decoration:none; color:#f2acb9; -webkit-transition: all 0.6s ease-in-out; -moz-transition: all 0.6s ease-in-out; -o-transition: all 0.6s ease-in-out; -ms-transition: all 0.6s ease-in-out; transition: all 0.6s ease-in-out; }
  
@@ -272,7 +272,7 @@ b, strong { font-weight:bold; color:#e68093; }
 
 i, em { color:#f2acb9; font-weight:600; }
 
-h1, h2, h3 { font-family:'montserrat'; letter-spacing:1px; font-weight:600; color:; font-style:none; text-align:center; font-size:22px; line-height:25px;}
+h1, h2, h3 { font-family:'montserrat',sans-serif; letter-spacing:1px; font-weight:600; color:; font-style:none; text-align:center; font-size:22px; line-height:25px;}
  
 
 
@@ -333,7 +333,7 @@ h1, h2, h3 { font-family:'montserrat'; letter-spacing:1px; font-weight:600; colo
  
 .more a { text-transform:uppercase; font-size:9px; color:#fcf2f0; background-color:#f2acb9; padding:4px 11px 4px 11px; border-radius:3px; font-weight:800; }
  
-#permalink { width:calc(350px + 18px); font-family:'montserrat'; text-align:left; text-transform:uppercase; font-weight:500; font-size:8px; padding-top:10px; padding-bottom:6px; padding-left:10px; padding-right:10px; margin:-18px; margin-left:0px; margin-top:-50px; margin-bottom:40px; background: #ede1e1; border-top-left-radius:2px; border-top-right-radius:2px; border:1px solid #ede1e1; border-bottom:1px solid #ede1e1; color:#464659; animation-name: fadeInOpacity; animation-iteration-count: 1; animation-timing-function: ease-in; animation-duration: 1.1s;
+#permalink { width:calc(350px + 18px); font-family:'montserrat',sans-serif; text-align:left; text-transform:uppercase; font-weight:500; font-size:8px; padding-top:10px; padding-bottom:6px; padding-left:10px; padding-right:10px; margin:-18px; margin-left:0px; margin-top:-50px; margin-bottom:40px; background: #ede1e1; border-top-left-radius:2px; border-top-right-radius:2px; border:1px solid #ede1e1; border-bottom:1px solid #ede1e1; color:#464659; animation-name: fadeInOpacity; animation-iteration-count: 1; animation-timing-function: ease-in; animation-duration: 1.1s;
 }
 
 @keyframes fadeInOpacity {
@@ -349,7 +349,7 @@ h1, h2, h3 { font-family:'montserrat'; letter-spacing:1px; font-weight:600; colo
  
 #permalink a { letter-spacing:2px; font-weight:600; color:#f2acb9; padding-right:2.3px; webkit-transition: all 0.6s ease-in-out; -moz-transition: all 0.6s ease-in-out; -o-transition: all 0.6s ease-in-out; -ms-transition: all 0.6s ease-in-out; transition: all 0.6s ease-in-out; }
  
-#tags { width:calc(350px + 18px); margin-top:-40px; margin-left:0px; margin-bottom:40px; letter-spacing:1px; font-size:8px; text-align:left; line-height:16px; color:#464659; font-family:'montserrat'; text-transform:lowercase; background-color:#ede1e1; padding-top:10px; padding-bottom:6px; padding-left:10px; padding-right:10px; border-bottom-left-radius:2px; border-bottom-right-radius:2px; border:1px solid #ede1e1; border-top:0px solid #ede1e1; animation-name: fadeInOpacity; animation-iteration-count: 1; animation-timing-function: ease-in; animation-duration: 1.1s;
+#tags { width:calc(350px + 18px); margin-top:-40px; margin-left:0px; margin-bottom:40px; letter-spacing:1px; font-size:8px; text-align:left; line-height:16px; color:#464659; font-family:'montserrat',sans-serif; text-transform:lowercase; background-color:#ede1e1; padding-top:10px; padding-bottom:6px; padding-left:10px; padding-right:10px; border-bottom-left-radius:2px; border-bottom-right-radius:2px; border:1px solid #ede1e1; border-top:0px solid #ede1e1; animation-name: fadeInOpacity; animation-iteration-count: 1; animation-timing-function: ease-in; animation-duration: 1.1s;
 }
 
 @keyframes fadeInOpacity {
@@ -400,7 +400,7 @@ h1, h2, h3 { font-family:'montserrat'; letter-spacing:1px; font-weight:600; colo
                              /* QUOTE STYLING */
    
    
-#q { font-family:'montserrat'; text-transform:uppercase; letter-spacing:.7px; font-weight:900; color:#f2acb9; font-style:none; text-align:center; font-size:22px; line-height:28px; margin-top:10px; }
+#q { font-family:'montserrat',sans-serif; text-transform:uppercase; letter-spacing:.7px; font-weight:900; color:#f2acb9; font-style:none; text-align:center; font-size:22px; line-height:28px; margin-top:10px; }
  
 .source { color:#464659; margin-top:13px; font-size:9px; font-weight:500; text-align:center; letter-spacing:1px; text-transform:uppercase; padding-bottom:5px; }
  
@@ -445,7 +445,7 @@ h1, h2, h3 { font-family:'montserrat'; letter-spacing:1px; font-weight:600; colo
             margin: 0 0px 10px 0px;
             padding: 0;
             color: #666666;
-            font-family: 'montserrat';
+            font-family: 'montserrat',sans-serif;
             font-size:8px;
             line-height: 0px;
             
@@ -643,7 +643,7 @@ h1, h2, h3 { font-family:'montserrat'; letter-spacing:1px; font-weight:600; colo
  
 .pagination { position:absolute; width:230px; margin-bottom:25px; padding-right:2px; text-align:center; line-height:30px; border:0px solid #ede1e1; transform: rotate(0deg); z-index:9999999; margin-top:341px; margin-left:100px; }
  
-.pagination a { font-family:'montserrat'; width:70px; font-size:7px; text-transform:uppercase;  color:#464659; font-weight:bold; background:#fcf2f0; padding:6px; padding-left:9px; border-radius:2px; border:0px solid #ede1e1; }
+.pagination a { font-family:'montserrat',sans-serif; width:70px; font-size:7px; text-transform:uppercase;  color:#464659; font-weight:bold; background:#fcf2f0; padding:6px; padding-left:9px; border-radius:2px; border:0px solid #ede1e1; }
  
 
          /*               TABS BASE CODE BY ALYOFRP.             */
@@ -651,7 +651,7 @@ h1, h2, h3 { font-family:'montserrat'; letter-spacing:1px; font-weight:600; colo
  
 .tabzclose { /* the close button, u prob dont need to touch this */
     position:absolute;
-    font-family:'montserrat';
+    font-family:'montserrat',sans-serif;
     font-style:none;
     font-size:8px;
     color:#fcf2f0;
@@ -704,7 +704,7 @@ h1, h2, h3 { font-family:'montserrat'; letter-spacing:1px; font-weight:600; colo
 
 #enhypen { position:absolute; width:140px; height:60px; border-left:2px solid #f2acb9; bottom:80px; left:200px; padding:10px; }
 
-.lyrics { color:#464659; font-family:'montserrat'; font-size:8px; width:140px; letter-spacing:0px; height:60px; background-color:transparent; line-height:7px; text-align:justify; overflow:visible; }
+.lyrics { color:#464659; font-family:'montserrat',sans-serif; font-size:8px; width:140px; letter-spacing:0px; height:60px; background-color:transparent; line-height:7px; text-align:justify; overflow:visible; }
 
 #pantone { position:absolute; width:40px; height:40px; background-color:#fcf2f0; border:1px solid #ede1e1; top:80px; left:35px; }
 
